@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "powco-react-native",
-    "slug": "powco-react-native",
+    "name": "POWCO",
+    "slug": "powco",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "co.pow"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e3839727-78e6-4952-860d-899dea7f2db7"
+      }
+    },
+    "owner": "powco"
   }
 }
